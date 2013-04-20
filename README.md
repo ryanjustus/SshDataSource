@@ -2,6 +2,7 @@ SshDataSource
 =============
 
 extends org.apache.commons.dbcp.BasicDataSource to tunnel it through an ssh connection using the ganymed-ssh-2 library
+Supports MySQL, PostreSQL, SQL Server, and Oracle databases
 
 Example usage:
 ```java
